@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <form action="#" id="formulir-ini" onsubmit="kirimFormulir(); return false">
+    <h1>Halaman Feedback</h1>
+    <label for="nama_txt">Nama</label><br>
+    <input required type="text" name="nama" id="nama_txt"><br>
+    <p id="nama_result_txt">-</p>
+    <br>
+    <label for="feedback_txt">Feedback</label><br>
+    <textarea name="feedback" id="feedback_txt" cols="30" rows="10"></textarea>
+    <p id="feedback_result_txt">-</p>
+    <br>
+    <br>
+    <button id="submit_btn" type="submit">Kirim</button>
+
+    <h1 id="status"></h1>
+  </form>
+  <script src="./script.js"></script>
+</body>
+</html>
